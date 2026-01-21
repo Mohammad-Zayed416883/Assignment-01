@@ -1,0 +1,123 @@
+/* shared css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+}
+
+.btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    /* color: white; */
+}
+
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+
+}
+
+/* Main css */
+header {
+    /* width: 100%; */
+    /* max-width: 1600px; */
+    background-color: #ffff;
+    /* align-items: center; */
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    align-items: center ;
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+    fon
+    /* text-decoration: none; */
+}
+
+nav .menu a{
+    text-decoration: none;
+}
+
+.banner .banner-container{
+    background: url(./assets/hero-bg.png), #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 115px 120px 180px;
+    /* width: 85%; */
+    /* max-width: 1600px; */
+    margin: 0;
+    /* align-items: center; */
+}
+
+.section-heading{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    /* align-items: center; */
+}
+.section-heading .access-btn{
+    /* margin: 0 auto; */
+    padding: 8px 12px;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 1000px;
+    margin-bottom: 14px;
+
+    /* justify-content: center; */
+}
+
+.section-heading h1{
+    margin-bottom: 30px;
+}
+.section-heading .white-color{
+    color: white;
+}
+.section-heading .green-color{
+    color: #30B868;
+}
+
+.section-heading p{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.header-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.header-btn .play-btn{
+    border: 1px solid #FFFFFF;
+    background: none;
+}
