@@ -9,7 +9,7 @@
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
+  font-weight: <weight>;
 }
 
 .btn{
@@ -34,13 +34,14 @@ button:hover{
 
 }
 
+.section-heading{
+    text-align: center;
+    margin-top: 70px;
+}
+
 /* Main css */
 header {
-    /* width: 100%; */
-    /* max-width: 1600px; */
     background-color: #ffff;
-    /* align-items: center; */
-    margin: 0;
 }
 
 header nav {
@@ -63,38 +64,34 @@ nav .menu a{
     text-decoration: none;
 }
 
-.banner .banner-container{
+.banner {
     background: url(./assets/hero-bg.png), #FFFFFF;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 115px 120px 180px;
-    /* width: 85%; */
-    /* max-width: 1600px; */
     margin: 0;
-    /* align-items: center; */
 }
 
-.section-heading{
-    max-width: 1360px;
-    margin: 0 auto;
-    text-align: center;
-    /* align-items: center; */
+.banner-container{
+    padding: 0 295px;
+
 }
-.section-heading .access-btn{
-    /* margin: 0 auto; */
+
+.section-heading .open-access-btn{
     padding: 8px 12px;
     color: #30B868;
+    background-color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
+    border: none;
     border-radius: 1000px;
-    margin-bottom: 14px;
-
-    /* justify-content: center; */
+    margin-bottom: 16px;
 }
 
 .section-heading h1{
-    margin-bottom: 30px;
+    font-size: 72px;
+    margin-bottom: 16px;
 }
 .section-heading .white-color{
     color: white;
@@ -105,19 +102,76 @@ nav .menu a{
 
 .section-heading p{
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
 }
 
-.header-btn{
+.banner-btn{
     display: flex;
     gap: 16px;
     justify-content: center;
 }
 
-.header-btn .play-btn{
-    border: 1px solid #FFFFFF;
+.banner-btn .play-btn{
+    border: 2px solid #FFFFFF;
     background: none;
+}
+
+.note-section-heading h1{
+    font-size: 48px;
+    color: black;
+    margin-bottom: 16px;
+}
+.note-section-heading p{
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 44px;
+}
+
+.note-container .card-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+.card-box .note-card{
+    width: 100%;
+    max-width: 322px;
+    text-align: center;
+    padding: 24px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.288);
+    align-items: center;
+}
+.note-card .image-icon {
+    width: 60px;
+    height: 60px;
+    background: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 46px auto 16px;
+}
+.note-card .image-icon .img{
+    width: 32px;
+}
+
+.note-card h3{
+    font-size: 24px;
+    font-weight: 650;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
 }
