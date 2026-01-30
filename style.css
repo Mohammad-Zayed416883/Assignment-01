@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -29,7 +28,6 @@ button:hover{
     width: 85%;
     max-width: 1360px;
     margin: 120px auto 0;
-    border: 2px solid red;
 }
 
 .section-heading{
@@ -70,7 +68,6 @@ nav .menu a{
 }
 .banner-container{
     padding: 0 295px;
-
 }
 .banner .section-heading .open-access-btn{
     display: inline-flex;
@@ -249,7 +246,7 @@ nav .menu a{
     margin-top: 0;
 }
 .footer-container .extra-info{
-    margin-bottom: 110px;
+    margin-bottom: 80px;
 }
 .social-part-title {
     font-size: 20px;
