@@ -9,7 +9,6 @@
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
 }
 
 .btn{
@@ -24,45 +23,41 @@
 }
 button:hover{
     background-color: red;
-    /* color: white; */
 }
 
 .container{
     width: 85%;
     max-width: 1360px;
-    margin: 0 auto;
+    margin: 120px auto 0;
     border: 2px solid red;
-
 }
 
 .section-heading{
     text-align: center;
-    margin-top: 70px;
 }
 
 /* Main css */
 header {
     background-color: #ffff;
 }
-
 header nav {
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
-    align-items: center ;
+    align-items: center;
 }
-
+header .container{
+    margin-top: 0;
+}
 nav .menu {
     display: flex;
     list-style: none;
     gap: 32px;
     align-items: center;
-    fon
-    /* text-decoration: none; */
 }
-
 nav .menu a{
     text-decoration: none;
+    color: #000000;
 }
 
 .banner {
@@ -70,16 +65,15 @@ nav .menu a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 115px 120px 180px;
+    padding: 70px 120px 134px;
     margin: 0;
 }
-
 .banner-container{
     padding: 0 295px;
 
 }
-
-.section-heading .open-access-btn{
+.banner .section-heading .open-access-btn{
+    display: inline-flex;
     padding: 8px 12px;
     color: #30B868;
     background-color: #FFFFFF;
@@ -88,38 +82,46 @@ nav .menu a{
     border: none;
     border-radius: 1000px;
     margin-bottom: 16px;
+    align-items: center;
 }
-
-.section-heading h1{
+.open-access-btn img{
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+}
+.banner .section-heading h1{
     font-size: 72px;
     margin-bottom: 16px;
 }
-.section-heading .white-color{
+.banner .section-heading .white-color{
     color: white;
 }
-.section-heading .green-color{
+.banner .section-heading .green-color{
     color: #30B868;
 }
-
-.section-heading p{
+.banner .section-heading p{
     font-size: 18px;
     font-weight: 200;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
 }
-
 .banner-btn{
     display: flex;
     gap: 16px;
     justify-content: center;
 }
-
 .banner-btn .play-btn{
     border: 2px solid #FFFFFF;
     background: none;
 }
 
+.note-container{
+    margin-top: 120px;
+}
+.note-container .container{
+    margin-top: 44px;
+}
 .note-section-heading h1{
     font-size: 48px;
     color: black;
@@ -130,21 +132,18 @@ nav .menu a{
     font-weight: 250;
     line-height: 20px;
     color: rgb(0, 0, 0);
-    margin-bottom: 44px;
+    margin-bottom: px;
 }
-
 .note-container .card-box{
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    margin-bottom: 120px;
 }
 .card-box .note-card{
     width: 100%;
     max-width: 322px;
     text-align: center;
     padding: 24px;
-    /* border: 1px solid red; */
     border-radius: 8px;
     box-shadow: 0 2px 40px rgba(0, 0, 0, 0.288);
     align-items: center;
@@ -162,14 +161,12 @@ nav .menu a{
 .note-card .image-icon .img{
     width: 32px;
 }
-
 .note-card h3{
     font-size: 24px;
     font-weight: 650;
     color: #001931;
     margin-bottom: 16px;
 }
-
 .note-card p{
     font-size: 16px;
     font-weight: 400;
@@ -179,7 +176,6 @@ nav .menu a{
 
 .knowledge-container{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 60px;
 }
@@ -193,7 +189,6 @@ nav .menu a{
     color: #469165;
     margin-bottom: 16px;
 }
-
 .knowledge-section-heading h1{
     font-size: 48px;
     font-weight: 700;
@@ -215,15 +210,15 @@ nav .menu a{
     text-align: center;
     background-color: #F7F6F2;
     padding: 80px 40px;
+    border-radius: 10px;
+    margin-bottom: 120px;
 }
-
 .challenge-container .challenge-section-heading h1{
     font-size: 40px;
     font-weight: bold;
     color: #001931;
     padding-bottom: 16px;
 }
-
 .challenge-section-heading p{
     font-size: 16px;
     font-weight: 400;
@@ -231,49 +226,51 @@ nav .menu a{
     color: #627382;
     padding-bottom: 24px;
 }
-
 .challenge-extra-info .challenge-btn{
     margin-bottom: 16px;
 }
-
 .challenge-extra-info p{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
 
-
 .footer-container .extra-info{
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-
 .footer-section{
     background-color: #001931;
     padding: 120px 120px 30px;
 }
-
 .footer-container{
     text-align: center;
+    margin-top: 0;
 }
 .footer-container .extra-info{
     margin-bottom: 110px;
 }
-
 .social-part-title {
     font-size: 20px;
     font-weight: 300;
     color: #FFFFFF;
     margin-bottom: 16px;
-    text-align: left;
+    margin-right: 107px;
 }
-
+.social-part-title p{
+    margin-bottom: 16px;
+}
+.footer-container hr{
+    margin-bottom: 16px;
+    height: 1px;
+    border: none;
+    background-color: #6273827a;
+}
 .extra-info .social-icon{
     max-width: 20px;
     margin-right: 16px;
 }
-
 .footer-container .copyright{
     font-size: 16px;
     font-weight: 100;
